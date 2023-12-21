@@ -8,9 +8,9 @@ import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
   'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
+  'logoipsum-logo-1.svg',
+  'logoipsum-logo-1.svg',
+  'logoipsum-logo-1.svg',
   'logoipsum-logo-5.svg',
   'logoipsum-logo-6.svg',
   'logoipsum-logo-7.svg',
@@ -19,7 +19,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Our Sponsors!</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -36,7 +36,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={70} height={50} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -49,16 +49,17 @@ function normalizePartnerLogoName(logo: string) {
 }
 
 const Title = styled.h3`
-  font-size: 1.3rem;
+  font-size: 3.3rem;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
+  
   text-align: center;
   opacity: 0.8;
 
   ${media('<=desktop')} {
-    line-height: 1.5;
+    line-height: 1;
   }
 `;
 
@@ -67,6 +68,7 @@ const PartnersWrapper = styled(Container)`
     will-change: transform;
     transition-timing-function: linear;
     margin-top: 0.5rem;
+
     user-select: none;
   }
 

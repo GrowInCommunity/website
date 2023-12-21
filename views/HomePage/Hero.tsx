@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>In Person Community Meetup</CustomOverTitle>
+        <Heading>GrowIn x CloudOps Community Meetup Delhi NCR</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Enjoy In Person Meetup, GrowIn X CloudOPs Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
+          
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Register Here <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Timeline <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
@@ -67,6 +67,7 @@ const ImageContainer = styled.div`
   flex: 1;
   justify-content: flex-end;
   align-items: flex-start;
+  width: 10;
 
   svg {
     max-width: 45rem;
@@ -101,6 +102,7 @@ const Heading = styled.h1`
   line-height: 1.1;
   margin-bottom: 4rem;
   letter-spacing: -0.03em;
+  padding-left: 20;
 
   ${media('<=tablet')} {
     font-size: 4.6rem;

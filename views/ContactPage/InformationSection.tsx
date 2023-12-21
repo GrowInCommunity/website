@@ -3,9 +3,12 @@ import styled from 'styled-components';
 export default function InformationSection() {
   return (
     <Wrapper>
-      <h3>Contact Info</h3>
+      <h3>Contact Us via email</h3>
       <p>
-        <span>Email:</span> support@myawesomesaas.com
+        <span>Email :</span> growincomm@gmail.com
+      </p>
+      <p>
+      <span>Email2 :</span> cloudopscomm@gmail.com
       </p>
     </Wrapper>
   );
@@ -28,7 +31,7 @@ const Wrapper = styled.div`
   }
 
   span {
-    opacity: 1;
+    opacity: 1.4;
     color: rgba(var(--text), 1);
   }
 `;

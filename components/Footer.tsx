@@ -18,30 +18,29 @@ const footerItems: FooterItems = [
     ],
   },
   {
-    title: 'Product',
+    title: 'Resources',
     items: [
       { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Code of Conduct', href: '/something' },
+      { title: 'Sponsorships Brochure', href: '/something-else' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'Contact',
     items: [
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
+      { title: 'About', href: '/blog' },
+      { title: 'Newsletter', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
+      { title: 'Contact Us', href: '/help-center' },
     ],
   },
   {
-    title: 'Something',
+    title: 'Community',
     items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'Workshops', href: '/features2' },
+      { title: 'Next Meet-Ups', href: '/something2' },
+      { title: 'Timelines', href: '/something-else2' },
+      { title: 'Connect', href: 'https://twitter.com/GrowInComm' },
     ],
   },
 ];
@@ -57,25 +56,25 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
+            <NextLink href="https://twitter.com/GrowInComm" passHref>
               <a>
                 <TwitterIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
+            <NextLink href="https://t.co/DtXtW5SbFb" passHref>
               <a>
                 <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
+            <NextLink href="https://www.linkedin.com/company/growincommunity/" passHref>
               <a>
                 <LinkedinIcon size={50} round={true} />
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2023 GrowIn Design Team</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
