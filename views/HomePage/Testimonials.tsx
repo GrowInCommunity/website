@@ -11,10 +11,10 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `Really good. I am so happy to be a Sponsor of this Amazing tech Meet-Up.`,
     author: {
       name: 'Clyde Edwards',
-      title: 'Very Serious Man',
+      title: 'Founder Of TATA 1mg',
       avatarUrl: '/testimonials/author-photo-1.jpeg',
     },
   },

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import Page from 'components/Page';
 import FaqSection from 'views/PricingPage/FaqSection';
-import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
+// import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
 
 export default function PricingPage() {
   return (
-    <Page title="Pricing" description="Cupidatat et reprehenderit ullamco aute ullamco anim tempor.">
+    <Page title="Frequently asked question" description="These Questions may solve your some doubt's">
       <Wrapper>
-        <PricingTablesSection />
+        {/* <PricingTablesSection /> */}
         <FaqSection />
       </Wrapper>
     </Page>

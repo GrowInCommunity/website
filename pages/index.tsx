@@ -27,24 +27,21 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/fun.png" title="Fun & Engaging Activities." overTitle="Have Some Fun">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              We have some Exciting Games, Engaging Activities and Good Vibes 🫶{' '}
+              <strong>Try to remove your Stage fear and Engage with others</strong> Join us for an unforgettable experience! Dive into a world of excitement with thrilling games, interactive activities, and an ambiance brimming with positivity and good vibes.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.jpg" title="Back to Back Speaker Sessions" overTitle="Endless Learnings" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              We have a lot of Speakers best of the best that will teach you amazing stuff. We Selected only best speakers that are working in top tech companies{' '}
+              <strong>Industry Goats are Coming in this Meet-up</strong>. This meetup focus on networking, learning and spreading awareness of tech.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Workshops 💻</li>
+              <li>Technology History 🚀</li>
+              <li>Upcoming Techs 🤖</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
