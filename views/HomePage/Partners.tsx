@@ -19,7 +19,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>Our Sponsors!</Title>
+      <Title>Partners and Sponsors</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -36,7 +36,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={70} height={50} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={70} height={50} className='h-auto w-full' />
           </SwiperSlide>
         ))}
       </Swiper>

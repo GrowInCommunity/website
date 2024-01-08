@@ -76,8 +76,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>Why?</OverTitle>
-        <SectionTitle>What are the benefits for attending this meetup?</SectionTitle>
+        <OverTitle>Benefits</OverTitle>
+        <SectionTitle>Need more reasons to sign up?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>
