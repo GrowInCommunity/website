@@ -27,22 +27,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/fun.png" title="Fun & Engaging Activities." overTitle="Have Some Fun">
+          <BasicSection imageUrl="/fun.png" title="Expand Professional Network" overTitle="Networking">
             <p>
-              We have some Exciting Games, Engaging Activities and Good Vibes 🫶{' '}
-              <strong>Try to remove your Stage fear and Engage with others</strong> Join us for an unforgettable experience! Dive into a world of excitement with thrilling games, interactive activities, and an ambiance brimming with positivity and good vibes.
+              Connect with industry experts, learn about the latest technologies and career trends, and share your knowledge and experience with others.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.jpg" title="Back to Back Speaker Sessions" overTitle="Endless Learnings" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.jpg" title="Industry-class Workshops and Sessions" overTitle="Best Talks" reversed>
             <p>
-              We have a lot of Speakers best of the best that will teach you amazing stuff. We Selected only best speakers that are working in top tech companies{' '}
-              <strong>Industry Goats are Coming in this Meet-up</strong>. This meetup focus on networking, learning and spreading awareness of tech.
+              We bring you the best speakers from around the world to share their knowledge and experience with you. 
+              The sessions are designed to be interactive and engaging, so you can get the most out of them.
             </p>
-            <ul>
-              <li>Workshops 💻</li>
-              <li>Technology History 🚀</li>
-              <li>Upcoming Techs 🤖</li>
-            </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>

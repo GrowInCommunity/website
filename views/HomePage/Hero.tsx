@@ -17,7 +17,7 @@ export default function Hero() {
         <CustomOverTitle>In Person Community Meetup</CustomOverTitle>
         <Heading>GrowIn x CloudOps Community Meetup Delhi NCR</Heading>
         <Description>
-          Enjoy In Person Meetup, GrowIn X CloudOPs Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
+          Enjoy In Person Meetup, GrowIn X Clou dOPs Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
           
         </Description>
         <CustomButtonGroup>

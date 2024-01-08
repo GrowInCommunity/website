@@ -9,7 +9,6 @@ import { media } from 'utils/media';
 const PARTNER_LOGOS = [
   'logoipsum-logo-1.svg',
   'logoipsum-logo-3.svg',
-  'logoipsum-logo-2.svg',
   'logoipsum-logo-4.svg',
   'logoipsum-logo-5.svg',
 
@@ -19,7 +18,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>Our Sponsors!</Title>
+      <Title>Partners and Sponsors</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -32,11 +31,11 @@ export default function Partners() {
           768: { slidesPerView: 4 },
           1025: { slidesPerView: 6 },
         }}
-        className="swiper-wrapper"
+        className="swiper-wrapper justify-center items-center w-full"
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={70} height={50} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width="150" height="50" className='h-auto w-auto' />
           </SwiperSlide>
         ))}
       </Swiper>
