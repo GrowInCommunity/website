@@ -23,9 +23,12 @@ export default function WaveCta() {
         <Container>
           <Title>How can I Register to Attend this Meet-up?</Title>
           <CustomButtonGroup>
-            <Button onClick={() => setIsModalOpened(true)}>
-              Submit email to Register! <span>&rarr;</span>
-            </Button>
+            <NextLink href="https://lu.ma/bg0iufn0" passHref>
+              <Button onClick={() => setIsModalOpened(true)}>
+                Register Here! <span>&rarr;</span>
+              </Button>
+            </NextLink>
+
             <NextLink href="/features" passHref>
               <OutlinedButton transparent>
                 Timeline <span>&rarr;</span>

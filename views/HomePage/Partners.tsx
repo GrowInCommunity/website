@@ -69,7 +69,7 @@ const PartnersWrapper = styled(Container)`
     will-change: transform;
     transition-timing-function: linear;
     margin-top: 0.5rem;
-    width: 100px
+
     user-select: none;
   }
 

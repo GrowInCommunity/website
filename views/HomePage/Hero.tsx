@@ -21,9 +21,11 @@ export default function Hero() {
           
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Register Here <span>&rarr;</span>
-          </Button>
+          <NextLink href="https://lu.ma/bg0iufn0" passHref>
+            <Button onClick={() => setIsModalOpened(true)}>
+              Register Here <span>&rarr;</span>
+            </Button>
+          </NextLink>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Timeline <span>&rarr;</span>

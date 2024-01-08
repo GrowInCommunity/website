@@ -19,10 +19,11 @@ export default function Cta() {
             All of our events are completely free and open for everyone. Fun-filled events with no compromise on quality.
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="https://lu.ma/bg0iufn0" passHref>
               <Button>
-                Register for Free! <span>&rarr;</span>
-              </Button>
+                  Register for Free! <span>&rarr;</span>
+                </Button>
+            
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>

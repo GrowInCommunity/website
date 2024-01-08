@@ -36,29 +36,25 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
         return (
           <Overlay>
             <Container>
-              <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
-                <CloseIconContainer>
-                  <CloseIcon onClick={onClose} />
-                </CloseIconContainer>
-                {hasSignedUp && <MailSentState />}
-                {!hasSignedUp && (
-                  <>
-                    <Title>Are you ready to join Our Meet-up and next Upcoming event & meetups</Title>
-                    <Row>
-                      <CustomInput
-                        value={email}
-                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
-                        placeholder="Enter your email..."
-                        required
-                      />
-                      <CustomButton as="button" type="submit" disabled={hasSignedUp}>
-                        Submit
-                      </CustomButton>
-                    </Row>
-                    {message && <ErrorMessage dangerouslySetInnerHTML={{ __html: message as string }} />}
-                  </>
-                )}
-              </Card>
+            
+                <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
+                  <CloseIconContainer>
+                    <CloseIcon onClick={onClose} />
+                  </CloseIconContainer>
+                  {hasSignedUp && <MailSentState />}
+                  {!hasSignedUp && (
+                    <>
+                      <Title>Are you ready to join Our Meet-up and next Upcoming event & meetups</Title>
+                      <Row>
+                        
+                        <CustomButton as="button" type="submit" disabled={hasSignedUp}>
+                          Register!
+                        </CustomButton>
+                      </Row>
+                      {message && <ErrorMessage dangerouslySetInnerHTML={{ __html: message as string }} />}
+                    </>
+                  )}
+                </Card>
             </Container>
           </Overlay>
         );
