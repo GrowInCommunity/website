@@ -14,19 +14,18 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>In Person Community Meetup</CustomOverTitle>
+        <CustomOverTitle>In Person Unconference</CustomOverTitle>
         <Heading>GrowIn x CloudOps Community Meetup Delhi NCR</Heading>
         <Description>
-          Enjoy In Person Meetup, GrowIn X CloudOPs Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
-          
+          Meet with the community of CloudOps and DevOps, learn from the experts, and share your knowledge with others. Network with the community and get to know about the latest trends in the DevOps industry. Conversation will majorly be over cloud, networking and devops.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Register Here <span>&rarr;</span>
+            Sign me up! <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Timeline <span>&rarr;</span>
+              I wanna know more! <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
