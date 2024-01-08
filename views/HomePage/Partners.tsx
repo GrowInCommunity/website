@@ -8,12 +8,12 @@ import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
   'logoipsum-logo-1.svg',
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-1.svg',
+  'logoipsum-logo-3.svg',
+  'logoipsum-logo-2.svg',
+  'logoipsum-logo-4.svg',
   'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+
+  
 ];
 
 export default function Partners() {
@@ -54,6 +54,7 @@ const Title = styled.h3`
   line-height: 0;
   text-transform: uppercase;
   margin-bottom: 6rem;
+
   
   text-align: center;
   opacity: 0.8;
@@ -68,12 +69,12 @@ const PartnersWrapper = styled(Container)`
     will-change: transform;
     transition-timing-function: linear;
     margin-top: 0.5rem;
-
+    width: 100px
     user-select: none;
   }
 
   .swiper-slide {
-    opacity: 0.8;
+    opacity: 1;
     transition: opacity 0.2s;
 
     &:hover {
