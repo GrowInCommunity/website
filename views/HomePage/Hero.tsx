@@ -17,11 +17,11 @@ export default function Hero() {
         <CustomOverTitle>In Person Community Meetup</CustomOverTitle>
         <Heading>GrowIn x CloudOps Community Meetup Delhi NCR</Heading>
         <Description>
-          Enjoy In Person Meetup, GrowIn X Clou dOPs Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
+          Enjoy In Person Meetup, GrowIn X Cloud Ops Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
           
         </Description>
         <CustomButtonGroup>
-          <NextLink href="https://lu.ma/bg0iufn0" passHref>
+          <NextLink href="https://lu.ma/gic-cloudops-delhi-meetup-2024" passHref>
             <Button onClick={() => setIsModalOpened(true)}>
               Register Here <span>&rarr;</span>
             </Button>

@@ -13,13 +13,13 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>GrowIn-Community Meetup</OverTitle>
-          <SectionTitle>About this Meet-up</SectionTitle>
+          <OverTitle>20-jan-2024</OverTitle>
+          <SectionTitle>Venue Address</SectionTitle>
           <Description>
-            All of our events are completely free and open for everyone. Fun-filled events with no compromise on quality.
+            415/2, 7th Floor, Motorola Excellence Centre, Mehrauli-Gurgaon Rd, DLF Colony, Sector 14, Gurugram, Haryana 122001.
           </Description>
           <ButtonGroup>
-            <NextLink href="https://lu.ma/bg0iufn0" passHref>
+            <NextLink href="https://lu.ma/gic-cloudops-delhi-meetup-2024" passHref>
               <Button>
                   Register for Free! <span>&rarr;</span>
                 </Button>
