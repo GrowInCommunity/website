@@ -7,6 +7,7 @@ export type SingleArticle = {
   content: string;
   meta: {
     title: string;
+    role: string;
     description: string;
     date: string;
     tags: string;
