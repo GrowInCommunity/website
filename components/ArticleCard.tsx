@@ -5,12 +5,13 @@ import { media } from 'utils/media';
 
 export interface ArticleCardProps {
   title: string;
+  role: string;
   slug: string;
   imageUrl: string;
   description: string;
 }
 
-export default function ArticleCard({ title, slug, imageUrl, description }: ArticleCardProps) {
+export default function ArticleCard({ title, role, slug, imageUrl, description }: ArticleCardProps) {
   return (
     <NextLink href={'/blog/' + slug} passHref>
       <ArticleCardWrapper className="article-card-wrapper">
@@ -20,7 +21,11 @@ export default function ArticleCard({ title, slug, imageUrl, description }: Arti
           </ImageContainer>
           <Content>
             <Title>{title}</Title>
+<<<<<<< HEAD
             
+=======
+            <Role>{role}</Role>
+>>>>>>> 66ec49d5620f7c792f8bfa72e35bc0e32e34751f
             <Description>{description}</Description>
           </Content>
         </HoverEffectContainer>
@@ -94,6 +99,17 @@ const Title = styled.h4`
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+`;
+
+const Role = styled.h6`
+  font-size: 1.6rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-block: auto;
 `;
 
 const Description = styled.p`

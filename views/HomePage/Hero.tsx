@@ -15,7 +15,7 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>In Person Community Meetup</CustomOverTitle>
-        <Heading>GrowIn x CloudOps Community Meetup Delhi NCR</Heading>
+        <Heading>GrowIn Community x CloudOps Community Meetup Delhi NCR</Heading>
         <Description>
           Enjoy In Person Meetup, GrowIn X Cloud Ops Community Engaging Activities, Good food, Good Vibes, Mentorship Sessions.  
           
@@ -99,7 +99,7 @@ const CustomOverTitle = styled(OverTitle)`
 `;
 
 const Heading = styled.h1`
-  font-size: 7.2rem;
+  font-size: 6.0rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 4rem;
