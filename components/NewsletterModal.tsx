@@ -37,7 +37,7 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
           <Overlay>
             <Container>
             
-                {/* <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
+                <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
                   <CloseIconContainer>
                     <CloseIcon onClick={onClose} />
                   </CloseIconContainer>
@@ -47,14 +47,14 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
                       <Title>Are you ready to join Our Meet-up and next Upcoming event & meetups</Title>
                       <Row>
                         
-                        <CustomButton as="button" type="submit" disabled={hasSignedUp}>
+                        <CustomButton href="https://lu.ma/gic-cloudops-delhi-meetup-2024" as="a">
                           Register!
                         </CustomButton>
                       </Row>
                       {message && <ErrorMessage dangerouslySetInnerHTML={{ __html: message as string }} />}
                     </>
                   )}
-                </Card> */}
+                </Card>
             </Container>
           </Overlay>
         );
