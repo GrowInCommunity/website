@@ -20,6 +20,7 @@ export default function ArticleCard({ title, slug, imageUrl, description }: Arti
           </ImageContainer>
           <Content>
             <Title>{title}</Title>
+            
             <Description>{description}</Description>
           </Content>
         </HoverEffectContainer>

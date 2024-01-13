@@ -37,7 +37,7 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
           <Overlay>
             <Container>
             
-                <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
+                {/* <Card onSubmit={(event: React.FormEvent<HTMLFormElement>) => onSubmit(event, subscribe)}>
                   <CloseIconContainer>
                     <CloseIcon onClick={onClose} />
                   </CloseIconContainer>
@@ -54,7 +54,7 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
                       {message && <ErrorMessage dangerouslySetInnerHTML={{ __html: message as string }} />}
                     </>
                   )}
-                </Card>
+                </Card> */}
             </Container>
           </Overlay>
         );
